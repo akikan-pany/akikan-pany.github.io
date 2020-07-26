@@ -1,0 +1,6 @@
+.aikon img {
+    display: block; /* 画像自体を箱として表示させる */
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+  }
