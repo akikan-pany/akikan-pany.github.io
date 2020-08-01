@@ -27,9 +27,43 @@
 .top nav ul li{
   padding: 10px;
 }
+.pro{
+  padding-left: 30px;
+}
+.pro h2{
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
 .aikon img {
-    display: block; /* 画像自体を箱として表示させる */
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%;
-  }
+  display: block; /* 画像自体を箱として表示させる */
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%;
+  margin-left: -20px;
+  margin-bottom: 10px;
+}
+.pro h3{
+  margin-bottom: 10px;
+}
+.pro p{
+  margin-bottom: 50px;
+}
+.work{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+  padding: 80px;
+  align-items: center;
+}
+.box-box-al{
+  height: 40%;
+  width: 100%;
+  background: #ccc;
+}
