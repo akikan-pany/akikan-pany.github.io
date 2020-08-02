@@ -67,12 +67,12 @@
   flex-direction: column;
   height: 80vh;
   width: 100%;
-  padding: 110px 80px;
+  padding: 130px 80px;
   align-items: center;
 }
 .moji {
   position:absolute;
-  top: 100%;
+  margin: 80px;
   color: #fff;
   background: rgba(0,0,0,.6);
   width: 200px;
@@ -82,7 +82,7 @@
  }
  .moji2 {
   position:absolute;
-  top: 100%;
+  margin: 30px;
   color: #fff;
   background: rgba(0,0,0,.6);
   width: 300px;
@@ -90,3 +90,52 @@
   font-size:2em;
   text-align:center;
  }
+ .hobby{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.skill{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.info {
+  max-width: 600px;
+  padding: 2rem;
+  color: var(--text-color);
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.social li {
+  line-height: 1;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.social li a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: 1s color;
+}
+.social li a:hover {
+  color: #f00;
+}
+@media screen and (max-width: 896px) {
+  main {
+    flex-direction: column;
+  }
+}
