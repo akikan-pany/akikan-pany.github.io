@@ -8,7 +8,11 @@
   font-size: 14pt;
   font-feature-settings: "palt";
 }
+h2{
+  font-family: 'Pacifico', cursive;
+}
 .top{
+  font-family: 'Pacifico', cursive;
   height: 80px;
   display: flex;
   align-items: center;
