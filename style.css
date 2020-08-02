@@ -110,13 +110,17 @@ h2{
   margin-top: 20px;
   padding-left: 30px;
 }
+.skill ul{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+}
 .info{
   display: flex;
   flex-direction: row;
   margin-top: 20px;
   padding-left: 30px;
 }
-
 .flowbtn6{
   border-radius:13px;		
   position:relative;
@@ -137,7 +141,9 @@ h2{
   transform:translate(-50%,-50%);
   }
   ul.snsbtniti{
-  padding:0!important;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    list-style: none;
   }
   .snsbtniti{
   display:flex;
@@ -147,6 +153,7 @@ h2{
   .snsbtniti li{
   flex:0 0 33%;
   text-align:center!important;
+  padding: 10px;
   }
   .flowbtn6:hover{
   -webkit-transform:translateY(-5px);
