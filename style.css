@@ -77,6 +77,39 @@ a:hover{
   padding: 80px;
   align-items: center;
 }
+
+@keyframes slideshow{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 1;
+  }
+  28%{
+    opacity: 1
+  }
+  38%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+
+}
+
+.gazo img {
+  position: absolute;
+  opacity: 0;
+  animation :slideshow 24s linear infinite;
+}
+
+.gazo img:nth-child(2){
+  animation-delay: 8s;
+}
+
+.gazo img:last-child{
+  animation-delay: 16s;
+}
 .box2{
   display: flex;
   flex-direction: column;
@@ -88,6 +121,7 @@ a:hover{
 .moji {
   position:absolute;
   margin: 80px;
+  margin-left: 280px;
   color: #fff;
   background: rgba(0,0,0,.6);
   width: 200px;
