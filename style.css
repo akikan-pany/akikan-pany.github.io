@@ -8,6 +8,14 @@
   font-size: 14pt;
   font-feature-settings: "palt";
 }
+body{
+  background-image: url(背景.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: gray;
+}
 h2{
   font-family: 'Pacifico', cursive;
 }
@@ -30,6 +38,9 @@ h2{
 }
 .top nav ul li{
   padding: 10px;
+}
+a:hover{
+  color: rgb(241, 128, 128);
 }
 .pro{
   padding-left: 30px;
