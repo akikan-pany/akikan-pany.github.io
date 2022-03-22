@@ -110,6 +110,7 @@ a:hover{
 .gazo img:last-child{
   animation-delay: 16s;
 }
+
 .box2{
   display: flex;
   flex-direction: column;
