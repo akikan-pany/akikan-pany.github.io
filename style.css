@@ -67,12 +67,13 @@ a:hover{
   margin-bottom: 50px;
 }
 .work{
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
   margin-top: 20px;
   padding-left: 30px;
   z-index: 10;
 }
+
+/*
 .box{
   display: flex;
   flex-direction: column;
@@ -114,36 +115,110 @@ a:hover{
 .gazo img:last-child{
   animation-delay: 16s;
 }
+*/
 
 .box2{
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 80%;
   width: 100%;
-  padding: 130px 80px;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  padding-left: 100%;
   align-items: center;
 }
+
+.box3{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 100%;
+  align-items: center;
+}
+
+.box4{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 100%;
+  align-items: center;
+}
+
+.box5{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 100%;
+  align-items: center;
+}
+
+/*
 .moji{
   position:absolute;
   margin: 80px;
   margin-left: 280px;
   color: #fff;
-  background: rgba(0,0,0,.6);
+  background: rgba(0,0,0,.5);
   width: 200px;
   padding: 1em 0;
   font-size:2em;
   text-align:center;
  }
+ */
+
  .moji2{
   position:absolute;
   margin: 30px;
   color: #fff;
-  background: rgba(0,0,0,.6);
-  width: 300px;
+  background: rgba(0,0,0,.5);
+  width: 299px;   /* なぜかこれが一番丁度良かった */
   padding: 1em 0;
   font-size:2em;
   text-align:center;
  }
+
+ .moji3{
+  position:absolute;
+  margin: 30px;
+  color: #fff;
+  background: rgba(0,0,0,.5);
+  width: 299px;   /* なぜかこれが一番丁度良かった */
+  padding: 1em 0;
+  font-size:2em;
+  text-align:center;
+ }
+
+ .moji4{
+  position:absolute;
+  margin: 30px;
+  color: #fff;
+  background: rgba(0,0,0,.5);
+  width: 299px;   /* なぜかこれが一番丁度良かった */
+  padding: 1em 0;
+  font-size:2em;
+  text-align:center;
+ }
+
+ .moji5{
+  position:absolute;
+  margin: 30px;
+  color: #fff;
+  background: rgba(0,0,0,.5);
+  width: 299px;   /* なぜかこれが一番丁度良かった */
+  padding: 1em 0;
+  font-size:2em;
+  text-align:center;
+ }
+ 
  .hobby{
   display: flex;
   flex-direction: row;
