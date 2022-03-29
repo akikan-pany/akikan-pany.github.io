@@ -73,6 +73,10 @@ a:hover{
   z-index: 10;
 }
 
+.work p{
+  font-size: 16px;
+}
+
 /*
 .box{
   display: flex;
@@ -177,10 +181,10 @@ a:hover{
 
  .moji2{
   position:absolute;
-  margin: 30px;
+  margin: 56px;
   color: #fff;
   background: rgba(0,0,0,.5);
-  width: 299px;   /* なぜかこれが一番丁度良かった */
+  width: 399px;   /* なぜかこれが一番丁度良かった */
   padding: 1em 0;
   font-size:2em;
   text-align:center;
@@ -188,10 +192,10 @@ a:hover{
 
  .moji3{
   position:absolute;
-  margin: 30px;
+  margin: 56px;
   color: #fff;
   background: rgba(0,0,0,.5);
-  width: 299px;   /* なぜかこれが一番丁度良かった */
+  width: 399px;   /* なぜかこれが一番丁度良かった */
   padding: 1em 0;
   font-size:2em;
   text-align:center;
@@ -199,10 +203,10 @@ a:hover{
 
  .moji4{
   position:absolute;
-  margin: 30px;
+  margin: 56px;
   color: #fff;
   background: rgba(0,0,0,.5);
-  width: 299px;   /* なぜかこれが一番丁度良かった */
+  width: 399px;   /* なぜかこれが一番丁度良かった */
   padding: 1em 0;
   font-size:2em;
   text-align:center;
@@ -210,10 +214,10 @@ a:hover{
 
  .moji5{
   position:absolute;
-  margin: 30px;
+  margin: 56px;
   color: #fff;
   background: rgba(0,0,0,.5);
-  width: 299px;   /* なぜかこれが一番丁度良かった */
+  width: 399px;   /* なぜかこれが一番丁度良かった */
   padding: 1em 0;
   font-size:2em;
   text-align:center;
