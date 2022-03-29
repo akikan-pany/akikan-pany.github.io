@@ -260,51 +260,51 @@ a:hover{
   color:#fff!important;
   transition:.5s;
   text-decoration:none;
-  }	
-  .flowbtn6 i{
+}	
+.flowbtn6 i{
   position:absolute;
   top:50%;
   left:50%;
   -ms-transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
-  }
-  ul.snsbtniti{
+}
+ul.snsbtniti{
     padding-top: 50px;
     padding-bottom: 30px;
     list-style: none;
-  }
-  .snsbtniti{
+}
+.snsbtniti{
   display:flex;
   flex-flow:row wrap;
   justify-content:space-around;
-  }
-  .snsbtniti li{
+}
+.snsbtniti li{
   flex:0 0 33%;
   text-align:center!important;
   padding: 10px;
-  }
-  .flowbtn6:hover{
+}
+.flowbtn6:hover{
   -webkit-transform:translateY(-5px);
   -ms-transform:translateY(-5px);
   transform:translateY(-5px);
-  }
-  /* Twitter */
-  .fl_tw1{
+}
+/* Twitter */
+.fl_tw1{
   background:#55acee;
-  }
-  /* Instagramアイコン位置 */
-  .insta_btn6 .fa-instagram{
+}
+/* Instagramアイコン位置 */
+.insta_btn6 .fa-instagram{
   font-size:40px;
-  }
-  /* Instagram紫グラデ背景 */
-  .insta_btn6 {
+}
+/* Instagram紫グラデ背景 */
+.insta_btn6 {
   background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
   background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
   overflow:hidden;	
-  }
-  /* Instagramオレンジグラデ背景 */
-  .insta_btn6:before{
+}
+/* Instagramオレンジグラデ背景 */
+.insta_btn6:before{
   content: '';
   position: absolute;
   top:27px;
@@ -313,5 +313,33 @@ a:hover{
   height:40px;
   background:-webkit-radial-gradient(#ffdb2c 7%, rgba(255, 105, 34, 0.3) 60%, rgba(255, 88, 96, 0) 70%);
   background:radial-gradient(#ffdb2c 7%, rgba(255, 105, 34, 0.3) 60%, rgba(255, 88, 96, 0) 70%);
-  }
+}
+
+a.btn-icon-31
+{
+  display: inline-block;
+  text-decoration: none;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  margin: 10px;
+  font-size: 36px;
+  color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.3s;
+}
+a.btn-icon-31:hover
+{
+  -webkit-transform:translateY(-5px);
+  -ms-transform:translateY(-5px);
+  transform:translateY(-5px);
+}
+
+a.btn-icon-simple-circle
+{
+  background: #000000; 
+}
+
   
